@@ -4,9 +4,7 @@
  Designed a particular implementation of a priority queue
  Implemented multiple traversals through a binary search tree
  
-Course: CS 251, Spring 2024, UIC
 System: xcode
-Author: Ethan Ordentlich
 ------------------------------------------- */
 
 #pragma once
@@ -25,7 +23,7 @@ class prqueue {
         NODE* parent;
         NODE* left;
         NODE* right;
-        NODE* link;  // Link to duplicates -- Part 2 only
+        NODE* link;  
     };
 
     NODE* root;
@@ -33,7 +31,7 @@ class prqueue {
 
     // Utility pointers for begin and next.
     NODE* curr;
-    NODE* temp;  // Optional
+    NODE* temp; 
 
    public:
    
