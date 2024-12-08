@@ -4,9 +4,7 @@
  Designed a particular implementation of a priority queue
  Implemented multiple traversals through a binary search tree
  
-Course: CS 251, Spring 2024, UIC
 System: xcode
-Author: Ethan Ordentlich
 ------------------------------------------- */
 
 
@@ -32,17 +30,6 @@ TEST(PrQueueTest, EnqueueAndPeekWithSamePriority) {
     EXPECT_EQ(2, pq.size());
 }
 
-// // Test for dequeue with same priority elements
-// TEST(PrQueueTest, DequeueWithSamePriority) {
-//     prqueue<char> pq;
-//     pq.enqueue('a', 1);
-//     pq.enqueue('b', 2);
-//     pq.enqueue('p', 2);
-//     pq.enqueue('c', 3);
-//     EXPECT_EQ('a', pq.dequeue());
-//     EXPECT_EQ('b', pq.peek());
-//     EXPECT_EQ(3, pq.size());
-// }
 
 // Test for clear
 TEST(PrQueueTest, Clear) {
